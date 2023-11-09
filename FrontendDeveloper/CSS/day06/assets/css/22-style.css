@@ -1,0 +1,47 @@
+:root{
+    --renk1:#4F709C;
+    --renk2:#E5D283;
+    --renk3:#213555;
+    --renk4:#F0F0F0;
+    
+
+}
+
+nav.navMenu ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+}
+
+nav.navMenu ul li{
+
+    display: inline-block;
+    margin-top: 3rem;
+    margin-right: 2rem;
+
+
+}
+
+nav.navMenu ul li a{
+    text-decoration: none;
+    display:inline-block;
+    background-color:var(--renk3) ;
+    color: var(--renk2);
+    padding: 0.5rem  1.2rem ;
+    font-size: 1.5rem;
+    width: 7rem;
+    text-transform: capitalize;
+    border-radius: 5px;
+    cursor: pointer;
+
+   
+
+}
+
+nav.navMenu ul li a:hover{
+    background-color:var(--renk2);
+    color:var(--renk1) ;
+    opacity: 0.8;
+}

@@ -1,0 +1,21 @@
+* {
+    color: blue;
+    font-size: 28px;
+    text-align: center;
+}
+
+p {
+    color: red;
+}
+
+.paragraf {
+    color: green;
+}
+
+#son-paragraf {
+    color: blueviolet;
+}
+
+p.paragraf {
+    font-size: 32px;
+}

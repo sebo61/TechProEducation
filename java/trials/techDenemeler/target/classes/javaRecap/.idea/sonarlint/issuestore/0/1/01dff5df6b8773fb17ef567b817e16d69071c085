@@ -1,0 +1,30 @@
+
+z
+java:S1192"_Define a constant instead of duplicating this literal "day36Lambda/LambdaTextFile.txt" 6 times.(ƒíçùÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÏŞÑû
+Z
+java:S2095"DUse try-with-resources or close this "Stream" in a "finally" clause.(ê†™¿
+_
+java:S2095"DUse try-with-resources or close this "Stream" in a "finally" clause.(İì“ùÿÿÿÿ
+_
+java:S2095"DUse try-with-resources or close this "Stream" in a "finally" clause.(ƒíçùÿÿÿÿ
+_
+java:S2095-"DUse try-with-resources or close this "Stream" in a "finally" clause.(”»‰Ğüÿÿÿÿ
+Z
+java:S2095&"DUse try-with-resources or close this "Stream" in a "finally" clause.(¢Š»
+Z
+java:S2095"DUse try-with-resources or close this "Stream" in a "finally" clause.(€ÎÓ
+E	java:S106"+Replace this use of System.out by a logger.(ƒíçùÿÿÿÿ
+V
+java:S1612"@Replace this lambda with method reference 'String::toUpperCase'.(€ÎÓ
+@	java:S106"+Replace this use of System.out by a logger.(€ÎÓ
+E	java:S106"+Replace this use of System.out by a logger.(›êŞÂúÿÿÿÿ
+E	java:S106""+Replace this use of System.out by a logger.(­–ÒÁøÿÿÿÿ
+E	java:S106)"+Replace this use of System.out by a logger.(µ„šÿÿÿÿÿ
+?	java:S1060"+Replace this use of System.out by a logger.(³İôE
+J
+java:S1128"4Remove this unused import 'java.io.FileInputStream'.(˜³ÉÓ
+E
+java:S1128"/Remove this unused import 'java.nio.file.Path'.(×²êÂ
+J
+java:S1128"/Remove this unused import 'java.sql.SQLOutput'.(ê¤òÃùÿÿÿÿ

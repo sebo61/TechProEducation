@@ -1,0 +1,29 @@
+
+body{
+    border:5px dotted red ;
+}
+
+h1.title{
+    text-decoration: overline;
+    color: blueviolet;
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    background-color: aqua;
+    border: 3px solid blue;
+
+
+}
+
+p#pId{
+
+    font-size: 1.4rem;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    line-height: 50px;
+    text-decoration: underline;
+    border: 12px solid  rgb(0, 255, 38);
+}

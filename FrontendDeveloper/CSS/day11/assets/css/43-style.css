@@ -1,0 +1,59 @@
+.title-1{
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    margin: 5rem ;
+    color: rgb(0, 12, 12);
+    text-shadow:10px 3px 7px red ;
+    cursor: pointer;
+}
+.title-2{
+    font-size: 5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    margin: 3rem ;
+    cursor: pointer;
+    color: rgb(18, 18, 1);
+ /*    box-shadow:  2px 2px 1px rgba(11, 18, 147, 0.2),0 0 6px red; */
+    padding: 15px;
+    display: inline-block;
+    box-shadow:
+    3px 3px red inset,
+    1em 0 0.4em olive;
+}
+/*
+box-shadow: inherit;
+box-shadow: initial;
+box-shadow: revert;
+box-shadow: revert-layer;
+box-shadow: unset;
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Message frontend_196_173_174_175_176
+
+
+
+
+
+
+

@@ -1,0 +1,49 @@
+p.pEl::first-letter{
+    font-size: 3rem;
+    color: red;
+    font-weight: bold;
+    line-height: 0;
+}
+p.pEl::first-line{
+
+    font-size: 2rem;
+    color: rgb(22, 154, 51);
+    background-color: aqua;
+}
+
+div.div-class::first-line{
+ color: red;
+}
+
+p.pEl::selection{
+    background-color: royalblue;
+}
+
+ul.list li::marker{
+    color: blueviolet;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 2rem;
+}
+
+h1.title{
+    font-size: 3rem;
+    color: red;
+    text-align: center;
+}
+
+h1.title::after{
+    content: "☔";
+    font-size: 4rem;
+    background-color: aqua;
+}
+
+h1.title::before{
+    content: "❄️";
+    background-color: blue;
+}
+
+p.pEl span.spanEl::after{
+content: "%%%%%%%%%";
+font-size: 2rem;
+}

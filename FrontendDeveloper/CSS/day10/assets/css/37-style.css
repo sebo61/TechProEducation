@@ -1,0 +1,43 @@
+.box1 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+position: relative;
+top: 70px;
+left: 50px; 
+z-index:0;
+
+
+
+
+}
+.box2{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: relative;
+  top: 5px;
+left: 120px;
+z-index: -1;
+  
+
+} 
+ .parent{
+    background-color: aqua;
+    height: 50vh;
+    position: relative;
+  
+}
+
+.parent img{
+    width: 50px;
+    height: auto;
+    position: absolute;
+    top: 50px;
+    right: 70px;
+  
+} 
+
+
+
+

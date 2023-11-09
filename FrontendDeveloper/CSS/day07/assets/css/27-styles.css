@@ -1,0 +1,32 @@
+.kutu p{
+    color: red;
+}
+
+.kutu > p{
+    color: green;
+    font-size: 2rem;
+}
+
+.kutu + h2{
+    color: blue;
+} 
+
+.kutu ~ h2{
+    color: yellowgreen;
+}
+
+ul.list>li{
+    list-style: none;
+}
+
+ul.list +p {
+    color: goldenrod;
+    font-size: 3rem;
+}
+ul.list ~ a{
+    text-decoration: none;
+}
+
+
+
+

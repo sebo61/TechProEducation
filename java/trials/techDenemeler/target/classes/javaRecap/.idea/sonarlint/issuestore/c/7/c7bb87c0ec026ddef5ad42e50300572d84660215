@@ -1,0 +1,46 @@
+
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(½½Ô„8”š•ì­1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‚Íå¡üÿÿÿÿ8–š•ì­1
+s
+java:S3655ë"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(Äœúûÿÿÿÿ8 š•ì­1
+s
+java:S3655Ï"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(Äœúûÿÿÿÿ8 š•ì­1
+s
+java:S3655Ä"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(Äœúûÿÿÿÿ8 š•ì­1
+s
+java:S3655¹"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(Äœúûÿÿÿÿ8 š•ì­1
+n
+java:S3655ù"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(˜‘ßÌ8 š•ì­1
+s
+java:S3655¬"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(Î‡»¦şÿÿÿÿ8 š•ì­1
+s
+java:S3655İ"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(Äœúûÿÿÿÿ8 š•ì­1
+s
+java:S3655 "PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(Î‡»¦şÿÿÿÿ8 š•ì­1
+G	java:S106/"+Replace this use of System.out by a logger.(èæ…º8¤š•ì­1
+L	java:S1062"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8¤š•ì­1
+L	java:S1067"+Replace this use of System.out by a logger.(°¥©·üÿÿÿÿ8¤š•ì­1
+L	java:S106<"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8¤š•ì­1
+G	java:S106@"+Replace this use of System.out by a logger.(èæ…º8¤š•ì­1
+L	java:S106K"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8¥š•ì­1
+G	java:S106P"+Replace this use of System.out by a logger.(ÍÛèÆ8¥š•ì­1
+L	java:S106X"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8¥š•ì­1
+G	java:S106^"+Replace this use of System.out by a logger.(ÍÛèÆ8¦š•ì­1
+L	java:S106e"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8¦š•ì­1
+G	java:S106l"+Replace this use of System.out by a logger.(ÍÛèÆ8¦š•ì­1
+L	java:S106q"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8§š•ì­1
+G	java:S106z"+Replace this use of System.out by a logger.(‚¨Ö§8§š•ì­1
+M	java:S106Š"+Replace this use of System.out by a logger.(ÑÔ¸ìûÿÿÿÿ8§š•ì­1
+M	java:S106’"+Replace this use of System.out by a logger.(¾ùôŒùÿÿÿÿ8¨š•ì­1
+M	java:S106š"+Replace this use of System.out by a logger.(¾ùôŒùÿÿÿÿ8¨š•ì­1
+M	java:S106¥"+Replace this use of System.out by a logger.(¾ùôŒùÿÿÿÿ8©š•ì­1
+M	java:S106±"+Replace this use of System.out by a logger.(¾ùôŒùÿÿÿÿ8©š•ì­1
+H	java:S106¾"+Replace this use of System.out by a logger.(Å¶áç8ªš•ì­1
+H	java:S106É"+Replace this use of System.out by a logger.(Å¶áç8ªš•ì­1
+H	java:S106Ö"+Replace this use of System.out by a logger.(Å¶áç8«š•ì­1
+H	java:S106ã"+Replace this use of System.out by a logger.(Å¶áç8«š•ì­1
+T
+java:S1612î"6Replace this lambda with method reference 'Math::min'.(Ã»¹8¬š•ì­1
+H	java:S106ñ"+Replace this use of System.out by a logger.(Å¶áç8¬š•ì­1
+M	java:S106û"+Replace this use of System.out by a logger.(ÆƒÌªşÿÿÿÿ8¬š•ì­1

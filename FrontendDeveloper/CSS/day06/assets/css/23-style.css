@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav.navMenu{
+    background-color: bisque;
+    display: inline-block;
+    padding: 50px;
+    margin: 5rem ;
+}
+
+nav.navMenu ul{
+    list-style-type: none;
+    padding: 5px;
+    line-height: 2rem;
+    display: none;
+}
+
+nav.navMenu:hover ul{
+    display: block;
+    cursor: pointer;
+}
+
+/* 
+nav.navMenu button:hover + ul{
+    display: block;
+    cursor: pointer;
+} */
+
+
+
+
+nav.navMenu button{
+    font-size: 1.7rem;
+    border: 3px dotted rgb(255, 0, 144);
+    border-radius: 15px;
+    background-color: aqua;
+    cursor: pointer;
+
+}
+
+nav.navMenu ul li a{
+    text-decoration: none;
+    font-size: 1.4rem;
+
+
+}
+
+nav.navMenu ul li a:hover{
+    color: rgb(255, 0, 144);
+    background-color: rgb(181, 160, 133);
+    opacity: 0.6;
+    
+}
+
+

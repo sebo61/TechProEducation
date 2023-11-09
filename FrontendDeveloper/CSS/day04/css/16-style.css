@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+div.box-1{
+    background-color:red ;
+    padding: 30px;
+    margin: 70px;
+}
+h1.title{
+    color: blue;
+    text-align: center;
+    background-color: rgb(84, 134, 18);
+    padding: 50px;
+    margin: 2rem;
+
+}
+div.box-2{
+    background-color: violet;
+    padding-top: 75px;
+    margin-left:45px ;
+   
+}
+
+span.spanEl{
+    padding:0 50px;
+    background-color: chartreuse;
+
+}
+div.box-3{
+background-color: rgb(117, 10, 63);
+color: antiquewhite;
+padding: 10px 56px 90px 34px;
+margin: 30px 23px 56px 0;
+
+}
+
+/* inline elementler sadece yatayda margin-padding alirlar   */
+

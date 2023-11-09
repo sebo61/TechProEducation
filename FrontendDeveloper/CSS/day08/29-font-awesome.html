@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Awesome Icons</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .fa-discord{
+            color: chartreuse;
+            font-size: 2rem;
+
+        }
+        .fa-x-twitter{
+       
+            font-size: 3rem;
+        }
+        .fa-hippo{
+            font-size: 5rem;
+        }
+        .menu ul {
+            list-style-type: none;
+        }
+
+        .menu ul li::after{
+            content: "\f023";
+            font:var( --fa-font-solid) ;
+            font-size: 2rem;
+           margin-left: 50px;
+        }
+        .menu ul li::before{
+            content: "\f0e9";
+            font:var( --fa-font-solid) ;
+            font-size: 2rem;
+            padding: 1.4rem;
+        }
+
+
+
+
+
+    </style>
+
+    
+</head>
+<body>
+    <h1>Font Awesome Icons</h1>
+
+    <ul>
+        <li><i class="fa-brands fa-discord  fa-lg" ></i></li>
+        <li><i class="fa-brands fa-x-twitter  fa-lg" style="color: #d72323;"></i></li>
+        <li><i class="fa-sharp fa-solid fa-hippo fa-shake"></i></li>
+    </ul>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+
+    </nav>
+
+
+</body>
+</html>

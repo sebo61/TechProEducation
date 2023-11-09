@@ -1,0 +1,31 @@
+body{
+    padding: 30px;
+}
+.boxes{
+    display: flex;
+    justify-content: space-around;
+    font-size: 3rem;
+    
+}
+.boxes > div {
+    height: 100px;
+    background-color: orangered;
+    color: rgb(22, 56, 119);
+    border-radius: 20px;
+}
+.boxes > div:first-child{
+    background-color: rgb(19, 177, 19);
+    color: blueviolet;
+}
+.boxes > div:last-child{
+    background-color: rgb(0, 15, 128);
+    color: rgb(226, 92, 43);
+    
+}
+.boxes > div:nth-child(3){
+    background-color: orangered;
+    color: rgb(22, 56, 119);
+    display: none;
+    
+    
+}

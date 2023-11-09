@@ -1,0 +1,9 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÐáŒ¡ûÿÿÿÿ8ŸÖÝñ«1
+²
+java:S1130"”Remove the declaration of thrown exception 'suleymanHocaJava.day37exceptionsenums.IllegalGradeException', as it cannot be thrown from method's body.(Àê‡Ö8­ÖÝñ«1
+X	java:S125"<This block of commented-out lines of code should be removed.(èÐÌÄ8­ÖÝñ«1
+L	java:S106"+Replace this use of System.out by a logger.(©þêÜúÿÿÿÿ8²ÖÝñ«1
+G	java:S106"+Replace this use of System.out by a logger.(È¯™Ø8³ÖÝñ«1
+L	java:S106!"+Replace this use of System.out by a logger.(»„þžþÿÿÿÿ8°Þñ«1
+G	java:S106="+Replace this use of System.out by a logger.(ôÌ¿ò8³øüñ«1

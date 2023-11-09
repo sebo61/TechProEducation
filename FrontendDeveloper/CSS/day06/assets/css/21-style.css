@@ -1,0 +1,49 @@
+:root{
+    --color1:rgb(216, 119, 95);
+    --color2:crimson;
+    --color3:rgb(0, 30, 255);
+    --color4:skyblue ;
+    --weight:600;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color3);
+    font-weight: var(--weight);
+    font-size: 2rem;
+    
+
+}
+nav.navMenu{
+    background-color: var(--color1);
+    padding: 20px;
+    width: 50vw;
+    margin: 20px;
+
+}
+
+nav.navMenu ul{
+    list-style-type: "🚙";
+    padding: 0;
+    list-style-position: inside;
+    font-size: 2rem;
+    line-height: 4rem;
+
+}
+
+nav.navMenu ul li a{
+    padding: 5px;
+  
+
+}
+
+nav.navMenu ul li a:hover{
+    color: var(--color4);
+    background-color: var(--color2);
+    border-radius: 10px;
+}
+
+h1{
+    text-transform: uppercase;
+    color: var(--color2);
+}

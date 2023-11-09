@@ -1,0 +1,15 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÏŞÑû
+k
+java:S3655,"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(¾åÃıÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(›êŞÂúÿÿÿÿ
+@	java:S106!"+Replace this use of System.out by a logger.(àÓ¨¨
+E	java:S106'"+Replace this use of System.out by a logger.(…ÚÇˆıÿÿÿÿ
+E	java:S106-"+Replace this use of System.out by a logger.(²Õ·Àøÿÿÿÿ
+E	java:S1064"+Replace this use of System.out by a logger.(Áºİöøÿÿÿÿ
+E	java:S106:"+Replace this use of System.out by a logger.(â—‡ıÿÿÿÿ
+E	java:S106A"+Replace this use of System.out by a logger.(ã¿¢Ôùÿÿÿÿ
+E	java:S106E"+Replace this use of System.out by a logger.(èã­†üÿÿÿÿ
+E	java:S106J"+Replace this use of System.out by a logger.(£ıíÌşÿÿÿÿ
+J
+java:S1128"/Remove this unused import 'java.sql.SQLOutput'.(ê¤òÃùÿÿÿÿ

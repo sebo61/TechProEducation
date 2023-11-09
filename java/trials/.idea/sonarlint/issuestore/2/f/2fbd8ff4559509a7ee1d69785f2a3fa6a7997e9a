@@ -1,0 +1,10 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÈÍ×–üÿÿÿÿ
+c
+java:S2259"M"NullPointerException" will be thrown when invoking method "getNumOfChars()".(Õ…¹‡
+E	java:S106"+Replace this use of System.out by a logger.(ò¤ö“ùÿÿÿÿ
+?	java:S106"+Replace this use of System.out by a logger.(¹àè|
+E	java:S106"+Replace this use of System.out by a logger.(£×±ùþÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(Õ…¹‡
+@	java:S106"+Replace this use of System.out by a logger.(˜®¹ˆ
+E	java:S106"+Replace this use of System.out by a logger.(©þêÜúÿÿÿÿ

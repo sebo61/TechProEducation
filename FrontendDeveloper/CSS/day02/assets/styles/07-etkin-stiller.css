@@ -1,0 +1,35 @@
+h1 {
+    color: red !important;
+}
+
+#title3 {
+    color: orange;
+}
+
+.title {
+    color: blue;
+}
+
+.title3 {
+    color: violet;
+}
+
+h3 {
+    color: green;
+}
+
+h3.title {
+    color: yellow;
+}
+
+h3#title3 {
+    color: pink;
+}
+
+.title4 {
+    color: green;
+}
+
+.title5 {
+    color: greenyellow;
+}

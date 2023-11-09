@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f25a2726-dd4c-4231-96a4-d5310a2f62fd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practive06/s01_polymorphism/Medya.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practive06/s01_polymorphism/MedyaOynatici.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practive06/s01_polymorphism/SesDosyasi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practive06/s01_polymorphism/VideoDosyasi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../privateJava/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../privateJava/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../privateJava/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../privateJava/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../privateJava/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../privateJava/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../privateJava/.idea/privateJava.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../privateJava/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../privateJava/techDenemeler/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../privateJava/techDenemeler/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../privateJava/techDenemeler/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../privateJava/techDenemeler/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../privateJava/techDenemeler/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../privateJava/techDenemeler/src/main/java/suleymanHoca/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/main/main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/main/main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../privateJava/techDenemeler/target/classes/Arrays/ArrayDenemeler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../privateJava/techDenemeler/target/classes/Arrays/ArrayDenemeler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../privateJava/techDenemeler/target/classes/Arrays/ArrayListDenem02.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../privateJava/techDenemeler/target/classes/Arrays/ArrayListDenem02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../privateJava/techDenemeler/target/classes/Arrays/ArrayListDeneme01.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../privateJava/techDenemeler/target/classes/Arrays/ArrayListDeneme01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../privateJava/techDenemeler/target/classes/Arrays/ArrayListKitap151.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../privateJava/techDenemeler/target/classes/Arrays/ArrayListKitap151.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../privateJava/techDenemeler/target/classes/Arrays/ArrayOneDimession.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../privateJava/techDenemeler/target/classes/Arrays/ArrayOneDimession.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../privateJava/techDenemeler/target/classes/Arrays/Arrays3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../privateJava/techDenemeler/target/classes/Arrays/Arrays3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../privateJava/techDenemeler/target/classes/Arrays/Date.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../privateJava/techDenemeler/target/classes/Arrays/Date.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../privateJava/techDenemeler/target/classes/Arrays/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../privateJava/techDenemeler/target/classes/Arrays/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../privateJava/techDenemeler/target/classes/Arrays/Inheritance.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../privateJava/techDenemeler/target/classes/Arrays/Inheritance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../privateJava/techDenemeler/target/classes/Arrays/Min.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../privateJava/techDenemeler/target/classes/Arrays/Min.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../privateJava/techDenemeler/target/classes/day23/DateTimeFormatterExp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../privateJava/techDenemeler/target/classes/day23/DateTimeFormatterExp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../privateJava/techDenemeler/target/classes/javaVeriYapilari/Ornek.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../privateJava/techDenemeler/target/classes/javaVeriYapilari/Ornek.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../.." />
+  </component>
+  <component name="ProjectId" id="2RZSO6xexvY421vf4f97zf2CG9F" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/sebo6/Desktop/TechProEducation/java/practice_nt/Batch171JavaAdvancedPracticeNT/src/main/java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="MedyaOynatici" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practive06.s01_polymorphism.MedyaOynatici" />
+      <module name="main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practive06.s01_polymorphism.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MedyaOynatici" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f25a2726-dd4c-4231-96a4-d5310a2f62fd" name="Changes" comment="" />
+      <created>1687456074833</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687456074833</updated>
+      <workItem from="1687456075838" duration="952000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

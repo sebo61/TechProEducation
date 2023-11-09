@@ -1,0 +1,52 @@
+body,html{
+    width: 100%;
+    height: 100%;
+
+
+}
+
+div.kutu-1{
+    background-color: blue;
+    height: 10%;
+    width:50px ;
+
+}
+div.kutu-2{
+    background-color: red;
+    width:50px;
+    height: 10%;
+}
+div.kutu-3{
+    background-color: green;
+    width: 50%;
+    font-size: 2em;
+
+}
+
+div.kutu-4{
+    background-color: rgb(124, 0, 128);
+    width: 70%;
+    font-size: 3em;
+   
+
+}
+
+div.kutu-5{
+    background-color: rgb(0, 102, 128);
+    width: 70%;
+  
+
+}
+
+div.kutu-6{
+    background-color: rgb(218, 218, 25);
+    width: 90vw;
+    height: 40vh;
+}
+div.kutu-7{
+    background-color: salmon;
+    width: 100px;
+    height: 150px;
+    font-size: 3rem;
+
+}

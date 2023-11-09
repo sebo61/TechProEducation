@@ -1,0 +1,14 @@
+nav.navMenu{
+    background-color: salmon;
+    text-align:center;
+    font-size: 2rem;
+    width: 300px;
+    line-height: 3.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+div.active{
+    background-color: green;
+    color:whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

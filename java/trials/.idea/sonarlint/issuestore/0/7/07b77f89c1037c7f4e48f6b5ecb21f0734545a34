@@ -1,0 +1,6 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(˜Èö½8—Žáó«1
+m
+java:S3655O"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(«Ú­¦8«Žáó«1
+m
+java:S3655J"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(«Ú­¦8Ã§¿ð¬1

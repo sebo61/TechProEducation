@@ -1,0 +1,14 @@
+h1{
+    color: red;
+    text-align: center;
+}
+.divEl{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    transform: translatex(50%);
+
+}
+.iphone14{
+    transform: rotate(-45deg) translate(50%);
+}

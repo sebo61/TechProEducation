@@ -1,0 +1,7 @@
+Learn java earn many.
+Java is OOP language.
+OOP has 4 principles
+1)Inheritance
+2)Polymorphism
+3)Encapsulation
+4)Abstraction

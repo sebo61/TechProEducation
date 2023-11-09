@@ -1,0 +1,25 @@
+.chk-mode{
+    display: none;
+}
+p.content{
+    font-size: 1.3rem;
+    text-align: justify;
+
+}
+.chk-mode:checked+.content{
+    background-color: black;
+    color: whitesmoke;
+    font-size: 1.3rem;
+
+}
+
+.btn-mode{
+    background-color:crimson;
+    color: aliceblue;
+    padding:25px 40px; 
+    margin-top: 2rem;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 5px rgb(0, 0, 0) solid;
+}

@@ -1,0 +1,91 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+
+header.header-el{
+    background-color:#5C5858 ;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.header-el a{
+    color: whitesmoke;
+    padding: 1rem;
+    margin: 1rem;
+
+}
+.header-el a:hover{
+    color: crimson;
+}
+.header-el img{
+    width: 15px;
+    height: 15px;
+    font-weight: 2rem;
+    text-align: center;
+}
+
+main.main-el section{
+    text-align: center;
+    margin-bottom: 1rem;
+    background-color: #242323;
+    color:whitesmoke
+
+}
+.main-el .iphone14{
+    background-color: whitesmoke;
+    padding-top: 10px;
+    color: black;
+
+
+}
+.main-el .iphone14 h2{
+    font-size: 3.5rem;
+    margin-top: 0;
+    margin-bottom: -10px;
+
+}
+.main-el section p{
+    font-size: 2rem;
+    color: #4f4a49;
+}
+main section h2{
+    font-size: 3.5rem;
+    margin-top: 0;
+    margin-bottom: -15px;
+    padding-top: 15px;
+    
+
+}
+
+section p.satis-tarihi{
+    font-size: 1.6rem;
+    color: #6f6b69;
+}
+
+.main-el section div.linkler{
+    font-size: 1.4rem;
+
+    margin-bottom: 2rem;
+
+}
+.main-el section div.linkler a{
+    margin-right: 2rem;
+}
+
+section.watch h2 img  {
+    width: 50px;
+    height: auto;
+    margin-right:10px ;
+
+
+}
+
+section.watch .series{
+   color: crimson;
+   letter-spacing: 0.5rem;
+   text-transform: uppercase;
+}

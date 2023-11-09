@@ -1,0 +1,35 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    text-align: center;
+    color: red;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+
+}
+nav.navMenu{
+    background-color: aqua;
+    padding: 10px;
+    width: 9rem;
+    margin: 2rem;
+
+}
+ul.navMenu-ul{
+    list-style-type: "🎃";
+    padding: 0;
+    list-style-position: inside;
+    line-height: 2rem;
+}
+.navMenu-ul-link{
+    padding: 10px;
+   
+}
+.navMenu-ul-link:hover{
+   background-color: antiquewhite;
+   background-color: chocolate;
+   border-radius: 10px;
+}

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="08b24f87-b6d5-47e3-991b-c018e2b549e6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../Batch171/Hibernate/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Batch171/Hibernate/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Batch171/Hibernate/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Batch171/Hibernate/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Batch171/Hibernate/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Batch171/Hibernate/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Batch171/Hibernate/src/main/java/com/tpe/hb01/annotation/RunnerFetch01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Batch171/Hibernate/src/main/java/com/tpe/hb01/annotation/RunnerSave01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Batch171/Hibernate/src/main/java/com/tpe/hb01/annotation/Student01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Batch171/Hibernate/src/main/java/com/tpe/hb02/embeddable/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Batch171/Hibernate/src/main/java/com/tpe/hb02/embeddable/RunnerFetch02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Batch171/Hibernate/src/main/java/com/tpe/hb02/embeddable/RunnerSave02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Batch171/Hibernate/src/main/java/com/tpe/hb02/embeddable/Student02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Batch171/Hibernate/src/main/java/com/tpe/hb03/uni_onetoone/Diary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Batch171/Hibernate/src/main/java/com/tpe/hb03/uni_onetoone/RunnerFetch03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Batch171/Hibernate/src/main/java/com/tpe/hb03/uni_onetoone/RunnerSave03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Batch171/Hibernate/src/main/java/com/tpe/hb03/uni_onetoone/Student03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Batch171/Hibernate/src/main/java/com/tpe/hb04/bi_onetoone/Diary04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Batch171/Hibernate/src/main/java/com/tpe/hb04/bi_onetoone/RunnerFetch04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Batch171/Hibernate/src/main/java/com/tpe/hb04/bi_onetoone/RunnerSave04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Batch171/Hibernate/src/main/java/com/tpe/hb04/bi_onetoone/Student04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Batch171/Hibernate/src/main/java/com/tpe/hb05/manytoone_uni/RunnerFetch05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Batch171/Hibernate/src/main/java/com/tpe/hb05/manytoone_uni/RunnerSave05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Batch171/Hibernate/src/main/java/com/tpe/hb05/manytoone_uni/Student05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Batch171/Hibernate/src/main/java/com/tpe/hb05/manytoone_uni/University.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Batch171/Hibernate/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../privateJava/techDenemeler/src/main/java/suleymanHocaJava/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../privateJava/techDenemeler/src/main/java/suleymanHocaJava/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../privateJava/techDenemeler/src/main/java/suleymanHocaJava/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../privateJava/techDenemeler/src/main/java/suleymanHocaJava/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/target.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../privateJava/techDenemeler/src/main/java/suleymanHocaJava/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../privateJava/techDenemeler/src/main/java/suleymanHocaJava/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../privateJava/techDenemeler/src/main/java/suleymanHocaJava/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../privateJava/techDenemeler/src/main/java/suleymanHocaJava/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../privateJava/techDenemeler/src/main/java/suleymanHocaJava/day29collections/LinkedList01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../privateJava/techDenemeler/src/main/java/suleymanHocaJava/day29collections/LinkedList01.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="2TkyPLSII5mQiXSWcJeiniOwU8C" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "C:/Users/sebo6/Desktop/TechProEducation/java/trials/techDenemeler/target/classes",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="08b24f87-b6d5-47e3-991b-c018e2b549e6" name="Changes" comment="" />
+      <created>1691601347674</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691601347674</updated>
+      <workItem from="1691601348721" duration="373000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
