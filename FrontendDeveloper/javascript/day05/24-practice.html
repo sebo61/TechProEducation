@@ -23,12 +23,22 @@ function hesapla(){
  if (inputValue>500){
 
 inputValue*=0.9;
-  
- }
 
- document.querySelector ("#sonuc").innerText=`toplam ödemeniz gereken tutar ${inputValue} tl `;
+
+
+
+ }else {
+
+inputValue*=0.95;
+
+ }
+ document.querySelector ("#sonuc").innerText=`toplam ödemeniz gereken tutar ${inputValue.toFixed(2)} tl `;
+
+inputEl.value="";
+
 
 }
+
 
 
 

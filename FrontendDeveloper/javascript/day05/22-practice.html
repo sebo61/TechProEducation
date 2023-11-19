@@ -25,14 +25,16 @@
     <p class="sonuc"></p>
     <script>
       function topla() {
-        let inputEl1 = document.querySelector("#sayi1").value;
-     let inputEl2 = document.querySelector("#sayi2").value;
+        let inputEl1 = document.querySelector("#sayi1");
+     let inputEl2 = document.querySelector("#sayi2");
         let sonucEl = document.querySelector(".sonuc");
         
-       let sonuc=Number(inputEl1)+Number(inputEl2)
+       let sonuc=Number(inputEl1.value)+Number(inputEl2.value)
         //console.log(sonuc)
         sonucEl.innerHTML=  `Sonuc:  ${sonuc}`
-        inputEl="";
+        inputEl1.value="";
+        inputEl2.value="";
+
    
       }
    
