@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>While practice</title>
+</head>
+<body>
+    
+<input type="number" placeholder="sayı giriniz." id="inp">
+<button onclick="hesapla()">Hesapla</button>
+<h3 id="snc"></h3>
+
+
+    <script>
+        function hesapla(){
+            let inputEl=document.querySelector("#inp");
+            let number=Number(inputEl.value);
+            let sonuc=document.querySelector("#snc");
+
+            let rakamlartoplami=0;
+            while(number>0 ){
+                let birlerBas=number%10;
+                rakamlartoplami+=birlerBas;
+                number=Math.floor(number/10);
+
+
+            }
+            sonuc.innerHTML=`girdiğiniz sayının rakamlar toplamı= ${rakamlartoplami}`;
+            inputEl.value="";
+        }
+
+    </script>
+</body>
+</html>
