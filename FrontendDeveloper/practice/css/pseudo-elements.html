@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-line{
+            font-weight: bold;
+            color: brown;
+            word-spacing: 2px;
+            letter-spacing: 1px;
+
+        }
+        p.about::first-line{
+            color: antiquewhite;
+
+
+        }
+        p::first-letter{
+            font-size: 48px;
+        }
+        ::selection{
+            background-color: blue;
+        }
+        p::after{
+            content: "-^-" ;
+        }
+
+        
+    </style>
+</head>
+<body>
+    
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum natus explicabo, repudiandae non aliquam voluptate. Explicabo error voluptatem molestiae ea, ratione minus quasi. Eius delectus nostrum fugiat quas consequatur animi.
+    </p>
+    <p class="about">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla doloremque illo quia voluptas eveniet magnam iste deleniti, nobis hic voluptatem iusto dicta officia nostrum commodi eos, vel aliquam esse perferendis.
+    </p>
+</body>
+</html>
