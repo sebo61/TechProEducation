@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let globelScope=34;
+
+        const topla=()=>{
+            let a=12;
+            console.log(a+globelScope);
+        }
+        // console.log(a) // error verir. scope dışından erişilemez.
+
+ topla();
+ const carpma=()=> {
+
+   console.log(globelScope+3)
+   let x=10;
+   if(x==10){
+    let blockScope=20;
+    console.log(blockScope)
+
+   }
+
+// console.log(blockScope) // hata; blok dışında
+ } 
+ 
+ 
+carpma();
+    </script>
+   
+</body>
+</html>

@@ -11,10 +11,11 @@
         header{
             background-color: chocolate;
             width: 100%;
+            /* padding: 8px 16px; */
         }
         #main-nav{
             display: inline-block;
-            width: calc(100% - 80px);
+            width: calc(100% - 99px);
             text-align: right;
             font-size: 24px;
         }
@@ -34,9 +35,43 @@
 
         li::before{
             content: '\2022';
+            color: #fff;
             padding-right: 6px;
             
         }
+        ul li:hover::before{
+            color:rgb(16, 132, 179) ;
+        }
+        .showcase{
+            padding: 10px;
+            height: 500px;
+        width: 100%;      
+    background-color: rgb(16, 132, 179);
+    }
+    .footer{
+        padding: 10px;
+        background-color:  chocolate;
+    }
+    .list a:hover{
+        color:rgb(16, 132, 179)
+    }
+    .list a:active{
+color: #fff;
+    }
+    ul li:active::before{
+        color: #fff;
+    }
+    .list a{
+        color: #fff;
+        text-decoration: none;
+    }
+    .main-header-logo{
+        font-size: 21px;
+        text-decoration: none;
+        font-weight: bold;
+        color: #fff;
+
+    }
 
     </style>
 
@@ -44,17 +79,25 @@
 <body>
     <header class="main-header">
        
-            <h2>MovieApp</h2>
+           <a href="#" class="main-header-logo">MovieApp</a>
         
             <nav id="main-nav">
-            <ul>
-                <li>Home</li>
-                <li>Movies</li>
-                <li>Contact</li>
+            <ul class="nav-list">
+                <li class="list"><a href="#">Home</a></li>
+                <li class="list"><a href="#">Movies</a></li>
+                <li class="list"><a href="#">Contact</a></li>
             </ul>
         </nav>
 
     </header>
+    <main>
+        <section class="showcase">
+            <h1>Welcome to MovieApp</h1>
+        </section>
+        <section class="footer">
+            <h2></h2>
+        </section>
+    </main>
 
 
 </body>
