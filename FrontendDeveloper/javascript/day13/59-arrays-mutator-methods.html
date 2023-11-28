@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mutator</title>
+</head>
+<body>
+
+
+    <script>
+        let cars=[
+            "Ford",
+            "Honda",
+            "Toyota",
+            "Tesla",
+            "Volvo",
+            "BMW",
+            "Mercedes",
+            "Audi",
+            "Nissan",
+            "Kia",
+            "BYD"
+
+        ]
+        console.log(cars)
+
+        cars.push("ferrari")
+        console.log(cars.pop());
+cars[cars.length]="Mazda";
+        
+console.log(cars)
+// shift dizinin başındaki elemanı siler ve silinen  elemanı döndürür.
+
+console.log(cars.shift())
+console.log(cars)
+
+console.log(cars.unshift("BYD"))
+
+console.log(cars)
+console.log(cars.sort())
+
+    </script>
+</body>
+</html>
