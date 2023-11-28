@@ -6,27 +6,34 @@
     <title>Function</title>
 </head>
 <body>
-    
     <script>
-        // function yasHesapla(){
-        //     console.log(2023-1977)
-        // }
-//         function yasHesapla(dogumYili){
-// console.log(2023-dogumYili);
-//         }
-//         yasHesapla(1990);
 
-function yasHesapla(dogumYili){
+/* function yasHesapla(){
+    console.log(2023-1990)
+} */
 
-    // console.log(currentYear-dogumYili);
-
-    let date =new Date();
-   let year=date.getFullYear();
-   return year-dogumYili;
-
-
+/* function yasHesapla(dogumYili){
+console.log(2023-dogumYili)
 }
-console.log(yasHesapla(1977));
+
+yasHesapla(1983) */
+
+function yasHesapla (dogumYili){
+   //console.log(currentYear-dogumYili)
+   let date= new Date();
+  let year= date.getFullYear()
+  return year-dogumYili;
+}
+
+
+console.log(yasHesapla(1923))
+
+let yasiBul=yasHesapla(1990)
+console.log(yasiBul)
+
+
+
     </script>
+    
 </body>
-</html>                
+</html>

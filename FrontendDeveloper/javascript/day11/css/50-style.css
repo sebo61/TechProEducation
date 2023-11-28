@@ -6,7 +6,6 @@
     text-align: center;
 }
 .card input{
-<<<<<<< HEAD
     border: 3px black solid;
     background-color: aqua;
     padding: 12px 20px;
@@ -41,28 +40,3 @@ display: none;
         margin-top: 2rem;
         display: inline-block;
     }
-=======
-    border: 1px black solid;
-    background-color: aqua;
-    padding: 7px 12px;
-    margin-bottom: 1rem;
-}
-.card .btn-tahmin{
-    padding: 7px 12px;
-    border-radius: 10px;
-    background-color: greenyellow;
-    font-size: 1rem;
-    cursor: pointer;
-    display: none;
-
-}
-.card .btn-basla{
-    padding: 7px 10px;
-    border-radius: 10px;
-    background-color: rgb(255, 47, 234);
-    font-size: 1rem;
-    font-weight: 800;
-    cursor: pointer;
-
-}
->>>>>>> 9b122d836883d326f2f13fc5f1156aac1215728b

@@ -1,4 +1,5 @@
 
+
 const inputName=document.querySelector("#name").value
 //const name=inputName.value
 

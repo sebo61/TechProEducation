@@ -6,10 +6,14 @@
     <title>Eval</title>
 </head>
 <body>
+
     <input type="text" placeholder="sayi giriniz" id="inpNumber" >
     <button onclick="hesapla()">Hesapla</button>
+
     <h3 id="sonuc"></h3>
+
     <script>
+
       /*   let x=34
         let y=56
         let sonuc="console.log(x+y)"
@@ -17,13 +21,22 @@
         eval(sonuc)
     console.log(eval(2+3-4+23/6)) */
     function hesapla(){
+
         let numberEl=document.querySelector("#inpNumber")
         let number=numberEl.value
         let sonucEl=document.querySelector("#sonuc")
       let islemSonucu=eval(number)
+
       console.log(eval(number))
+
         sonucEl.innerHTML=`Isleminizin sonucu: ${islemSonucu}`
+
     }
+
+
+
+
+
     </script>
     
 </body>
