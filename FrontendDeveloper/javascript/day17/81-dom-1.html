@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM-11</title>
+</head>
+<body>
+
+    <h1>Documnet Object Model</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi vitae velit magni necessitatibus nostrum itaque dolorum, recusandae ratione deleniti. Magnam ullam laborum sed laudantium doloremque. In distinctio eum explicabo amet?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi vitae velit magni necessitatibus nostrum itaque dolorum, recusandae ratione deleniti. Magnam ullam laborum sed laudantium doloremque. In distinctio eum explicabo amet?</p>
+    <p id="aboutEl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi vitae velit magni necessitatibus nostrum itaque dolorum, recusandae ratione deleniti. Magnam ullam laborum sed laudantium doloremque. In distinctio eum explicabo amet?</p>
+    <p class="pClass">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi vitae velit magni necessitatibus nostrum itaque dolorum, recusandae ratione deleniti. Magnam ullam laborum sed laudantium doloremque. In distinctio eum explicabo amet?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi vitae velit magni necessitatibus nostrum itaque dolorum, recusandae ratione deleniti. Magnam ullam laborum sed laudantium doloremque. In distinctio eum explicabo amet?</p>
+
+
+    
+<script>
+let aboutEl =document.getElementById("aboutEl")
+console.log(aboutEl.innerHTML)
+
+let h1El= document.getElementsByTagName("h1")
+console.log(h1El)
+let pEl= document.getElementsByTagName("p")
+console.log(pEl[3].innerHTML)
+
+let pClass= document.getElementsByClassName("pClass")
+console.log(pClass[0].innerHTML)
+
+</script>
+</body>
+</html>
