@@ -123,20 +123,12 @@
             color: #FC99FC ;
         }
 
-.features-left{
-    padding: 10px;
-    display: inline-block;
-background: url("./img/features.jpeg");   
-width: 45%; 
-height: 400px;
-background-position: center;
-}
-.features-right{
-    padding: 10px;
-    background-color: rgb(129, 145, 140);
-    display: inline-block;
-    width: 45%;
-    height: 400px;
+.features__left{
+    background: url("./img/features.jpeg"); 
+    background-size: cover;
+    background-position: top center;
+
+
 }
 .btn{
     background-color: #FC99FC;
@@ -162,7 +154,36 @@ vertical-align: top;
         }
 
       
+        .features__right{
+background-color: #727e81;
+padding: 40px;
+vertical-align: top;
 
+}
+
+.features__right h3{
+    font-size: 30px;
+}
+#features a {
+    background-color: #fc997c;
+    color: #fff;
+    padding:  7px 15px;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #fc997c;
+    border-radius: 3px;
+    display: inline-block;
+    margin-top: 15px;
+}
+#features a:hover{
+    border: 1px solid #fc997c;
+    color: #FC997C;
+    background-color: #fff;
+    border-radius: 3px;
+
+
+}
     </style>
 </head>
 <body>
@@ -216,10 +237,9 @@ vertical-align: top;
        </section>
        <section id="features">
         <div class="row">
-            <div class="col-2">
+            <div class="col-2 features__left">
 fsdd
-            </div>
-            <div class="col-2">
+            </div><div class="col-2 features__right">
                 <h3 >Watch all Movies & TV Shows once they get released!</h3>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo et voluptate dolor recusandae labore aspernatur praesentium! At laborum nam soluta saepe odio cum similique eveniet minus debitis. Aut, ea autem.</p>
                 <a href="#">Wiew Features</a>
