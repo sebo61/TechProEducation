@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error handling</title>
+</head>
+<body>
+    
+    <script>
+        const bolmeIslemi=(a,b) => {
+
+          try {
+            if(b===0){
+                throw new Error ("sayı 0'a bölünemez")
+            }
+            return a/b;
+
+          } catch (error) {
+            console.error("hata oluştu;" ,error.message)
+
+          }finally{
+
+          }
+        } 
+
+console.log(bolmeIslemi(4,1))
+    </script>
+</body>
+</html>
