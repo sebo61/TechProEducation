@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>floating</title>
+    <style>
+        #container{
+            background-color: blanchedalmond;
+         
+        }
+
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: brown;
+    display: inline-block;
+    float: right;
+}
+.clearfix::after{
+content: "";
+display: block;
+clear: both;
+
+}
+
+    </style>
+
+</head>
+<body>
+    <div id="container" class="clearfix">
+
+    <div class="box">kutu 1</div>
+    <div class="box">kutu 2</div>
+    <div class="box">kutu 3</div>
+    <!-- <div style="clear: both;"></div>
+     -->
+
+</div>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio aspernatur repudiandae reiciendis at earum excepturi laborum, quidem tempora labore sit, quae illum tenetur eveniet accusantium nobis omnis veniam, ut in?</p>
+</body>
+</html>
