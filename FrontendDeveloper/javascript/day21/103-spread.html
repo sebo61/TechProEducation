@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spread Operator</title>
+</head>
+<body>
+    
+    <script>
+
+        let cities=["Brussel","London","Bursa","Helsinki","istanbul","koln"];
+
+        cities = ["Zurich","Marsillia", ... cities,"Bursa","Roma"];
+        console.log(cities)
+
+// duplicate dataları unique hale getirir.
+        const newCities= [... new Set(cities)];
+        console.log(newCities);
+        const person={
+            firstName:"ali",
+            lastName:"gel",
+            country:"germany",
+            department:"IT"
+
+        };
+        // js de object type ve arrayler referans tipinde olsukları için içlerinde değerleri değil referans saklarlar.
+        const anotherPerson=person;
+        anotherPerson.firstName="veli";
+
+        console.log(person);
+        console.log(anotherPerson);
+
+        const newPerson= {... person ,email:"ali@gmail.com"}; //dğıtıyor Shallow copy
+
+        newPerson.firstName="Zeki";
+
+        console.log(newPerson)
+
+    </script>
+</body>
+</html>
