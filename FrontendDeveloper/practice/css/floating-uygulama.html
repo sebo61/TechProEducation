@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>floating-practice</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+header,footer{
+
+    background-color: #7E30E1;
+    color: #ffbd35;
+    padding: 15px;
+  
+ 
+}
+.float-left{
+width: 25%;
+
+}
+.col{
+    float: left;
+    padding: 15px 15px 15px 0;
+}
+
+.float-right{
+width: 75%;
+}
+.clearfix::after{
+content: "";
+display: block;
+clear: both;
+
+}
+.float-left div{
+    margin: 0;
+    padding: 0;
+
+
+}
+div h4{
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: #502064;
+    color: #fff;
+    margin-top: 0;
+}
+.float-left h4:hover{
+    cursor: pointer;
+    background-color: #8268ba ;
+}
+h1{
+    margin: 0;
+}
+
+    </style>
+</head>
+<body>
+    
+    <header class="head">
+        <h2 class="top-h2">Header</h2>
+    </header>
+<section class="clearfix">
+
+<div class="float-left col">
+
+    <div><h4>Html</h4></div>
+    <div><h4>Css </h4></div>
+    <div><h4>JavaScript</h4></div>
+
+
+</div>
+<div class="float-right col">
+
+<h1>Komple Web Geliştirme Eğitimi</h1>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat dolore nesciunt asperiores. Doloremque consectetur culpa explicabo quos, fugit voluptas veritatis autem, voluptatem ducimus blanditiis, ipsum dignissimos ipsa laborum neque maiores!</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nam sit est omnis alias? Velit pariatur facere dolorem aperiam maiores at illo illum, explicabo exercitationem quidem ex cupiditate magni perferendis!</p>
+</div>
+
+</section>
+
+    <footer class="foot"><h2 class="bottom-h2">Footer</h2></footer>
+</body>
+</html>
