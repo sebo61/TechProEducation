@@ -1,0 +1,10 @@
+body {
+  font-family: "Noto Sans";
+}
+
+.weather-card {
+  background-color: #000054;
+  border-radius: 20px;
+  color: rgb(238, 236, 236);
+  display: flex;
+}/*# sourceMappingURL=style.css.map */
