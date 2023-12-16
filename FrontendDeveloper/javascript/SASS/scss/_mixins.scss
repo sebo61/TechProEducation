@@ -1,9 +1,16 @@
+@use "variables" as v;
+
 @mixin border-radius($val) {
-	border-radius: $val;
+
+    @each $item in v.$vendors{
+        #{$item}border-radius: $val;
+    }
+
+	/* border-radius: $val;
 	-webkit-border-radius: $val;
 	-moz-border-radius: $val;
 	-ms-border-radius: $val;
-	-o-border-radius: $val;
+	-o-border-radius: $val; */
 }
 
 @mixin flex($fd: column, $jc: space-between, $ai: stretch, $gap:0, $fw: wrap) {
@@ -19,4 +26,8 @@
     list-style-type: none;
     margin:$m;
     padding:$p;
+}
+
+@mixin shadow($type, $val){
+    #{$type}-shadow: $val;
 }

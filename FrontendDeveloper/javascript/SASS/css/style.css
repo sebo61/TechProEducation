@@ -6,10 +6,31 @@ body {
   font-family: "Noto Sans";
 }
 
+.btn, .weather-card .btn-change {
+  border: none;
+  padding: 5px 10px;
+  text-align: center;
+  background-color: rgb(232, 232, 232);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  /* border-radius: $val;
+  -webkit-border-radius: $val;
+  -moz-border-radius: $val;
+  -ms-border-radius: $val;
+  -o-border-radius: $val; */
+}
+
 .weather-card {
   background-color: rgb(0, 0, 84);
   color: rgb(232, 232, 232);
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 0;
   flex-wrap: wrap;
   overflow: hidden;
   max-width: 600px;
@@ -18,6 +39,11 @@ body {
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
+  /* border-radius: $val;
+  -webkit-border-radius: $val;
+  -moz-border-radius: $val;
+  -ms-border-radius: $val;
+  -o-border-radius: $val; */
 }
 .weather-card .left-panel {
   flex: 2 1 200px;
@@ -38,6 +64,11 @@ body {
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
+  /* border-radius: $val;
+  -webkit-border-radius: $val;
+  -moz-border-radius: $val;
+  -ms-border-radius: $val;
+  -o-border-radius: $val; */
 }
 .weather-card .left-panel::after {
   content: "";
@@ -117,6 +148,11 @@ body {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
+  /* border-radius: $val;
+  -webkit-border-radius: $val;
+  -moz-border-radius: $val;
+  -ms-border-radius: $val;
+  -o-border-radius: $val; */
   padding: 10px;
 }
 .weather-card .right-panel ul.days li > span:nth-child(1) {
@@ -132,4 +168,9 @@ body {
 .weather-card .right-panel ul.days li.active {
   background-color: rgb(232, 232, 232);
   color: rgb(0, 0, 84);
+}
+.weather-card .btn-change {
+  background-image: linear-gradient(90deg, rgba(137, 43, 226, 0.6), rgb(145, 69, 174));
+  border: 2px dotted rgb(232, 232, 232);
+  padding: 10px;
 }/*# sourceMappingURL=style.css.map */
