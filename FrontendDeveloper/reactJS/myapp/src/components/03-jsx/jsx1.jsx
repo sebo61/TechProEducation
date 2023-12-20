@@ -1,14 +1,21 @@
-import React from 'react'
+import React from "react";
 
 const Jsx1 = () => {
-    const  message="Bu bölüm örgürce javascript kullanacağımız bölüm.";
-  return (
-    <div>
-        <div>Tüm elementler tek bir root içinde olmalıdır.</div> 
-        <div><b>{message}</b></div>
 
-    </div>
-  )
-}
+    const message = "Bu kısım özgürce javascript kullanacağımız bölüm";
 
-export default Jsx1
+    // Allttaki yöntem doğrudan Real DOM u manipule edeceği için React felsefesine aykırı bir durumdur.
+    // Zorunda kalmadıkca bu yöntem kullanılmamalıdır.
+    //document.getElementById("lblMessage").innerHTML = message;
+
+    // return içinde JSX var ve buranın kendine göre kuralları var.
+	return (
+		<div>
+			<div>Tüm elementler tek bir root element içinde olmalıdır</div>
+
+			<div><b>{message}</b></div>
+		</div>
+	);
+};
+
+export default Jsx1;
