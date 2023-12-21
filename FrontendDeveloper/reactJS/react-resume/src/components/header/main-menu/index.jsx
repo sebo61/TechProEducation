@@ -5,7 +5,7 @@ import "./style.css";
 const MainMenu = () => {
 	return (
 		<>
-			<label for="chkMenu" className="lbl-menu">
+			<label htmlFor="chkMenu" className="lbl-menu">
 				<TfiMenu />
 			</label>
 			<input type="checkbox" name="" id="chkMenu" className="chk-menu" />
