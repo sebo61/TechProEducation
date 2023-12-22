@@ -13,6 +13,7 @@ import WhatToDo from './components/main/what-to-do'
 import Resume from './components/main/resume'
 import Portfolio from './components/main/portfolio'
 import Client from './components/main/client'
+import Contact from './components/main/contact'
 
 const App = () => {
   return (
@@ -30,6 +31,7 @@ const App = () => {
         <Resume/>
         <Portfolio/>
         <Client/>
+        <Contact/>
       </Main>
 
       <Footer>

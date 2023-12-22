@@ -81,7 +81,7 @@ const Resume = () => {
 				<div className="row">
 					<div className="left">
 						<Skill title="Web Design" rate="65" />
-						<Skill title="Web Design" rate="65" />
+						<Skill title="Web Design" rate="35" />
 						<Skill title="Web Design" rate="65" />
 					</div>
 					<div className="right">

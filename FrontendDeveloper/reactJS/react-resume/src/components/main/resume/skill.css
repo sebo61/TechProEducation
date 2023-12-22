@@ -15,11 +15,10 @@
 	border-radius: 5px;
 }
 
-.resume .skill .progress::after {
-	content: "";
+.resume .skill .progress span {
 	display: block;
 	height: 5px;
-	width: 65%;
+	width: 0;
 	background-color: var(--color4);
 	border-radius: 5px;
 }
