@@ -19,13 +19,17 @@ import BootstrapStatic from "./components/13-bootstrap/bootstrap-static";
 import Icons from "./components/14-icons/icons";
 import Events from "./components/15-events/events";
 import Shop from "./components/16-shop/shop";
-import Stateless from "./components/17-useState/stateless";
 import State from "./components/17-useState/state";
+import Stateless from "./components/17-useState/stateless";
 import Counter from "./components/18-counter/counter";
 import Birthday from "./components/19-birthday/birthday";
-import Useeffect1 from "./components/20-useeffect/useeffect1";
+import UseEffect1 from "./components/20-useeffect/useeffect1";
 import UseEffect2 from "./components/20-useeffect/useeffect2";
+import UseEffect3 from "./components/20-useeffect/useeffect3";
 import Clock3 from "./components/21-clock/clock3";
+import CountryFilter from "./components/22-country-filter/country-filter";
+import Useref from "./components/23-useref/useref";
+import Scroll from "./components/24-useref/scroll";
 
 const App = () => {
 	return (
@@ -62,18 +66,18 @@ const App = () => {
 			<BootstrapDynamic/>
 			<Icons/>
 			<Events/>
-			 
-
-			<Shop/> 
-			<Stateless/> 
-			<State/> 
-			<Counter/> 
-			<Birthday/> 
-			<Useeffect1/> 
-			<UseEffect2/> */}
-			<Clock3/>
-
+			<Shop/>
+			<Stateless/>
+			<State/>
+			<Counter />
+			<Birthday/>
+			<UseEffect1 />
 			
+			<Clock3/>  
+			<UseEffect3/> 
+			<CountryFilter/> 
+			<Useref/> */}
+			<Scroll/>
 		</>
 	);
 };
