@@ -1,3 +1,4 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HelloWorld from "./components/01-hello-world";
 import HelloReact from "./components/02-hello-react";
 import { Jsx1, Jsx2, Jsx3, Jsx4, Jsx5, Jsx6, Jsx7 } from "./components/03-jsx";
@@ -23,63 +24,108 @@ import State from "./components/17-useState/state";
 import Stateless from "./components/17-useState/stateless";
 import Counter from "./components/18-counter/counter";
 import Birthday from "./components/19-birthday/birthday";
+import UseEffect3 from "./components/20-useeffect/useEffect3";
 import UseEffect1 from "./components/20-useeffect/useeffect1";
 import UseEffect2 from "./components/20-useeffect/useeffect2";
-import UseEffect3 from "./components/20-useeffect/useeffect3";
 import Clock3 from "./components/21-clock/clock3";
 import CountryFilter from "./components/22-country-filter/country-filter";
 import Useref from "./components/23-useref/useref";
 import Scroll from "./components/24-useref/scroll";
-
+import ClassComp from "./components/25-class-comp/class-comp";
+import UserList from "./components/26-user-cards/user-list";
+import Countries from "./components/27-countries/countries";
+import ParentComp from "./components/28-child-to-parent/parent";
+import Form1 from "./components/29-forms/form1";
+import Form2 from "./components/29-forms/form2";
+import Form3 from "./components/29-forms/form3";
+import Form4 from "./components/29-forms/form4";
+import Form5 from "./components/29-forms/form5";
+import Form6 from "./components/29-forms/form6";
+import Form7 from "./components/29-forms/form7";
+import Header from "./components/00-home/header";
+import Footer from "./components/00-home/footer";
+import { Container } from "react-bootstrap";
 const App = () => {
-	return (
-		<>
-			{/* <HelloReact/>
-			<HelloWorld/>
-			<Jsx1/>
-			<Jsx2/>
-			<Jsx3/>
-			<Jsx4/>
-			<Jsx5/>
-			<Jsx6/>
-			<Jsx7/>
-			<Style1/>
-			<Style2/>
-			<Style3 />
-			<Style4 />
-			<Clock1 />
-			<Greetings/>
-			<Products />
-			<Clock2 backgroundColor="blue" color="white"/>
-			<Base64/>
-			<Image/>
-			<Gallery/>
-			<ProfileCard
-				avatar="img/profile.jpg"
-				name="Jeniffer Lopez"
-				location="California, USA"
-				shot="544"
-				followers="50K"
-				following="100"
-			/>
-			<BootstrapStatic/>
-			<BootstrapDynamic/>
-			<Icons/>
-			<Events/>
-			<Shop/>
-			<Stateless/>
-			<State/>
-			<Counter />
-			<Birthday/>
-			<UseEffect1 />
-			
-			<Clock3/>  
-			<UseEffect3/> 
-			<CountryFilter/> 
-			<Useref/> */}
-			<Scroll/>
-		</>
-	);
+    return (
+        <>
+            {/* 
+            <HelloReact/>
+            <HelloWorld/>
+            <Jsx1/>
+            <Jsx2/>
+            <Jsx3/>
+            <Jsx4/>
+            <Jsx5/>
+            <Jsx6/>
+            <Jsx7/>
+            <Style1/>
+            <Style2/>
+            <Style3 />
+            <Style4 />
+            <Clock1 />
+            <Greetings/>
+            <Products />
+            <Clock2 backgroundColor="blue" color="white"/>
+            <Base64/>
+            <Image/>
+            <Gallery/>
+            <ProfileCard
+                avatar="img/profile.jpg"
+                name="Jeniffer Lopez"
+                location="California, USA"
+                shot="544"
+                followers="50K"
+                following="100"
+            />
+            <BootstrapStatic/>
+            <BootstrapDynamic/>
+            <Icons/>
+            <Events/>
+            <Shop/>
+            <Stateless/>
+            <State/>
+            <Counter />
+            <Birthday/>
+            <UseEffect1 />
+            <Clock3/>
+            <UseEffect3/>
+            <CountryFilter/>
+            <Useref />
+            <Scroll/>
+            <ClassComp />
+            <UserList/>
+            <Countries/>
+            <ParentComp/>
+            <Form1 />
+            <Form2 />
+            <Form3/>
+            <Form4/>
+            <Form5 />
+            <Form6/>
+            <Form7 />
+             */}
+            <BrowserRouter>
+                <div className="d-flex flex-column h-100">
+                    <Header />
+                    <Container className="py-3 flex-grow-1">
+                        <Routes>
+                            <Route
+                                path="/hello-react"
+                                element={<HelloReact />}
+                            />
+                            <Route
+                                path="/hello-world"
+                                element={<HelloWorld />}
+                            />
+                            <Route path="/jsx1" element={<Jsx1 />} />
+                            <Route path="/jsx2" element={<Jsx2 />} />
+                            <Route path="/jsx3" element={<Jsx3 />} />
+                        </Routes>
+                    </Container>
+                    <Footer />
+                </div>
+            </BrowserRouter>
+        </>
+    );
 };
-
 export default App;
