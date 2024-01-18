@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+/* Atribute selector */
+ /* attributeı target ise  */
+
+/* [class]{ 
+background-color: blue;
+} */
+
+/* Atribute value selector */
+
+/* a[class="active"]{ 
+background-color: blue;
+} */
+
+/* Atribute * selector */
+/* 
+[class*="active"]{ 
+background-color: blue;
+}
+ */
+/* Atribute '~' selector */ /* sadece kelimeyi arar*/
+/* [class~="active"]{ 
+background-color: blue;
+}
+ */
+
+/* Atribute '|' selector */ /* adece başta olanlar.*/
+
+/* [class|="active"]{ 
+background-color: blue;
+} */
+
+/* Atribute '^' selector */ /* */
+
+/* [class^="active"]{ 
+background-color: blue;
+}
+  */
+ /* Atribute '$' selector */  /*sonda arar */
+
+[class$="active"]{ 
+background-color: blue;
+}
+ 
+</style>
+
+</head>
+<body>
+    <span class="active-span text ">text</span>
+    <nav>
+        <a href="" target="_blank">Home</a>
+        <a href="" class="active">About</a>
+        <a href="" class="link">Contact</a>
+
+    </nav>
+    
+</body>
+</html>
